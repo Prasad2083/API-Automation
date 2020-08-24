@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.testapi.TestApiClass">
         <methods>
+          <include name="geturlwithheader"/>
           <include name="setUp"/>
-          <include name="geturl"/>
         </methods>
       </class> <!-- com.qa.testapi.TestApiClass -->
     </classes>
