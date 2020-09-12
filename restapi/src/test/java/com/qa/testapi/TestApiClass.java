@@ -68,11 +68,11 @@ public class TestApiClass extends BaseTest {
 			// Single Value fetching from Json
 			// Can fetch values from json any single value from json
 			
-			String jsonvalue=TestUtils.getjsonvalue(jsonobject, "/per_page");
+			//String jsonvalue=TestUtils.getjsonvalue(jsonobject, "/per_page");
 			
-			System.out.println("Value of Json Path-----------"+jsonvalue);
+			//System.out.println("Value of Json Path-----------"+jsonvalue);
 			
-			Assert.assertEquals(Integer.parseInt(jsonvalue), 6,"Value not found");
+			//Assert.assertEquals(Integer.parseInt(jsonvalue), 6,"Value not found");
 			
 			// Array type fetching from Json
 			// Fetching json values from array type data in json
@@ -164,12 +164,6 @@ public class TestApiClass extends BaseTest {
 			Assert.assertEquals(header1, "chunked","Value not found");
 			httpresponse.close();
 		}
-	
-	
-	
-	
-	
-	
 	
 	
 		
